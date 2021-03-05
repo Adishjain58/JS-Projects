@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(to right, #33ccff, #ff99cc) fixed;
+	height: 100%;
+	width: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+	width: 25%;
+	height: auto;
+	margin: 150px auto 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(24, 134, 224, 0.849);
+	align-items: center;
+	padding: 10px 20px;
+	color: white;
+}
+
+.input {
+	border: none;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	background-color: rgba(250, 246, 246, 0.705);
+}
+
+#textInput {
+	display: flex;
+	transition: all 0.5s;
+}
+
+ul {
+	width: 100%;
+	list-style-type: none;
+}
+
+ul li {
+	padding: 10px 20px;
+	width: 100%;
+	background-color: white;
+	font-weight: 600;
+	color: black;
+}
+
+.icon {
+	width: 8%;
+	text-align: center;
+	height: 100%;
+	padding: 12px 15px;
+	color: white;
+	background-color: rgba(255, 0, 0, 0.767);
+	display: none !important;
+}
+
+.icon-display {
+	display: block !important;
+}
+
+.item {
+	display: flex;
+}
+
+.display-none {
+	animation: invisible 0.5s;
+}
+
+.display-block {
+	animation: show 0.5s;
+}
+
+.selected {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.delete-item {
+	animation: width-decrease 0.5s;
+}
+
+.show-icon {
+	animation: item-increase 0.5s;
+}
+
+#inputToggle:hover {
+	cursor: pointer;
+}
+
+.delete-icon {
+	animation: item-decrease 0.5s;
+}
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes invisible {
+	0% {
+		opacity: 1;
+	}
+	95% {
+		opacity: 0;
+	}
+}
+
+@keyframes width-decrease {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
+
+@keyframes item-increase {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 8%;
+	}
+}
+
+@keyframes item-decrease {
+	0% {
+		width: 8%;
+	}
+	100% {
+		width: 0px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 40%;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 70%;
+	}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock Paper Scissor</title>
+    <style>
+      .green {
+        color: green;
+      }
+
+      .img {
+        height: 60px;
+        width: 60px;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .countdown {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span class="player1"></span> to <span class="player2"></span></h1>
+    <h2 class="countdown"></h2>
+    <h2>Game to: <span class="totalScore"></span></h2>
+    <div class="container">
+      <h3>
+        Player1 choose:&nbsp;&nbsp;
+      </h3>
+      <img src="" id="player1Choice" class="img" alt="" />
+    </div>
+    <div class="container">
+      <h3>
+        Player2 choose:&nbsp;&nbsp;
+      </h3>
+      <img src="" id="player2Choice" class="img" alt="" />
+    </div>
+
+    <input type="number" name="" id="totalScoreChoice" />
+    <button id="draw">Rock Paper Scissor</button>
+    <button id="reset">Reset</button>
+    <script src="index.js"></script>
+  </body>
+</html>

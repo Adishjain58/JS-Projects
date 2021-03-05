@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	display: flex;
+}
+
+.list {
+	display: flex;
+	list-style-type: none;
+	padding: 10px 10px;
+}
+
+.list li {
+	padding-left: 20px;
+}
+
+.list a {
+	text-decoration: none;
+	color: black;
+}
+.division {
+	width: 70%;
+}
+
+.side-bar {
+	width: 30%;
+	display: flex;
+	padding-top: 10px;
+	padding-left: 40vw;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.btn {
+	border-radius: 5%;
+	padding: 3px 15px;
+	margin-left: 5px;
+	font-size: 0.7vw;
+	color: white;
+	font-weight: bold;
+	border: 1px solid;
+}
+
+.btn-primary {
+	background-color: #4387fd;
+}
+
+.btn-default {
+	background-color: #f2f2f2;
+	color: rgba(0, 0, 0, 0.534);
+	border: none;
+	margin-top: 3vh;
+	height: 50%;
+	width: 7.5%;
+}
+
+.btn-default:hover {
+	cursor: pointer;
+	border: 0.5px solid #c5bfbf;
+}
+.main {
+	position: relative;
+	top: 136px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.image {
+	height: 15%;
+	width: 15%;
+}
+
+.search {
+	border: 0.7px solid rgba(0, 0, 0, 0.274);
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height: 4.2vh;
+	width: 30%;
+	display: flex;
+}
+
+.search:hover {
+	box-shadow: 1px 1px 1px 2px #dddada;
+}
+
+img {
+	margin-top: 0.7vw;
+	margin-left: 0.8vw;
+	height: 36%;
+}
+
+.search-icon {
+	width: 10%;
+}
+
+.voice {
+	width: 10%;
+}
+
+.input-search {
+	width: 80%;
+}
+
+.input {
+	width: 100%;
+	height: 98%;
+	border: none;
+	outline-style: none;
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	height: 8vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragraph {
+	margin-top: 1.5vh;
+	font-size: 0.75vw;
+}
+.paragraph a {
+	text-decoration: none;
+	color: #1a0dab;
+}
+
+.par2 {
+	margin-top: 3.3vh;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	background-color: #f2f2f2;
+	width: 100%;
+	color: rgba(0, 0, 0, 0.562);
+}
+
+.sub-heading {
+	margin: 1.5vh 2vw;
+	font-size: 1.8vh;
+	font-weight: 100;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.footer {
+	display: flex;
+}
+.footer1 {
+	width: 50%;
+	font-size: 0.8vw;
+}
+
+.footer2 {
+	width: 50%;
+	font-size: 0.8vw;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer2 ul {
+	width: fit-content;
+	margin-right: 2.5vw;
+}
